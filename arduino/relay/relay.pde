@@ -30,9 +30,9 @@
 
 // IMPORTANT: The IP AND MAC MUST BE CHANGED to something unique for each Arduino.
 // The gateway will probably need changed as well.
-byte ip[]      = {10, 10, 10, 31};
+byte ip[]      = {192, 168, 1, 24};
 byte mac[]     = {0xDE, 0xAD, 0xBE, 0xEF, 0xFE, 0xEE};
-byte gateway[] = {10, 10, 10, 1};
+byte gateway[] = {192, 168, 1, 1};
 byte subnet[]  = {255, 255, 255, 0};
 
 EthernetServer server = EthernetServer(PORT);
