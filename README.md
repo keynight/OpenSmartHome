@@ -25,7 +25,8 @@ RelayRemote was built and tested on an Arduino Uno with the Arduino Ethernet Shi
 
 * Arduino Uno: http://www.arduino.cc/en/Main/arduinoBoardUno
 * Arduino Ethernet Shield: http://www.arduino.cc/en/Main/ArduinoEthernetShield
-* PowerSwitch Tail II: http://www.powerswitchtail.com/Pages/default.aspx
+* Arduino Relais Shield:
+* TP-Link TL-WR1043N: http://wiki.openwrt.org/toh/tp-link/tl-wr1043nd
 
 
 ## Usage
