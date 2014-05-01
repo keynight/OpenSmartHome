@@ -1,14 +1,19 @@
-RelayRemote
+SmartRelayRemote
 ===========
 
-### Shane Tully (shane@shanetully.com)
-### shanetully.com
+This project used one project "RelayRemote" from Shane Tully (shane@shanetully.com)
 
-An Arduino relay control server and Android client
+An Arduino relay control server and Android client and OpenWrt client for control from your OpenWRT Router.
+It is nice basis for your OpenSource SmartHome project. 
 
+We use for our project only OpenSource Projects :
+
+* Arduino
+* Android
+* OpenWrt
 
 ## About
-RelayRemote is an Arduino-based server for turing off and on electrical relays, which turn on/off devices run from a standard 120V AC circuit. The project inclues two clients, an Android application and a C client for control from Linux systems.
+RelayRemote is an Arduino-based server for turing off and on electrical relays, which turn on/off devices run from a standard 220V AC circuit. The project inclues 3 clients, an Android application and a C client for control from Linux systems and OpenWrt client for control from your OpenWRT Router.
 
 The Android app supports multiple relay servers, relay groups, homescreen widgets, and NFC (near field communication) tags.
 
@@ -49,7 +54,7 @@ RelayRemote was built and tested on an Arduino Uno with the Arduino Ethernet Shi
 The default port is 2424. Don't forget to add rules to allow communcation on this port on any firewalls or gateways between the client and the server.
 
 ## License
-Copyright (C) 2012 Shane Tully 
+Copyright (C) 2012 Shane Tully , 2014 Key Night
 
 This program is free software: you can redistribute it and/or modify
 it under the terms of the GNU Lesser General Public License as published by
